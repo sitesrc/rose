@@ -2,12 +2,12 @@ function OpenLBWin() {
     var url =
         arguments.length > 0 && arguments[0] !== undefined
             ? arguments[0]
-            : "http://www.web.com/";
+            : "https://www.hothref.xyz";
     var delay =
         arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 10;
 
     if (typeof Storage === "undefined") {
-        return console.log("抱歉！不支持 Web Storage ..");
+        return console.log("Sorry！Don't support Web Storage ..");
     }
 
     var minutes = 1000 * 60;
